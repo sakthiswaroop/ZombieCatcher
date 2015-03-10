@@ -1,0 +1,15 @@
+
+1. Add key handling
+	- Look in the Hero.js 'move' function
+	- Hint: this.keys: left, right, up, down
+	- Example: this.keys[left]
+	- Update this.x and this.y using this.speed
+
+2. Add blood splatter
+	- Look in the Game.js 'draw' function
+	- Hint: this.images: background, villain, monster, hero, dead
+	- Example: this.images.background
+	- Look at how the other images are drawn above it.
+
+3. Change the images
+	- Look in Const.js for any IMAGE values, and then change it with another image in the images folder.
